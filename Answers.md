@@ -16,6 +16,7 @@ what happens if you use list.remove(77)?
 This will throw a error, the reason being is because the type of the input is int. Meaning, the method will interpret the 77 as the index rather than the integer object.
 
 which of the two lists performs better as the size increases?
-The Array list preforms better with the bigger size when it is being accessed, but linked lists preform better when being added or removed. At size 1000 with 100000 Reps, the ArrayList Access method takes 13 milliseconds, where as the Linked list Access method took 4 seconds. For the add remove methods, the Linked List finished in about 22 millisecond. Where as Array List add remove method took 3 seconds. The results were similar with the smaller sizes as well.
+The Array list preforms better with the bigger size when it is being accessed, but linked lists preform better when being added or removed. At size 1000 with 100000 Reps, the ArrayList Access method takes 13 milliseconds, where as the Linked list Access method took 4 seconds. For the add remove methods, the Linked List finished in about 22 millisecond. Where as Array List add remove method took 3 seconds. The smaller the size, the closer the two are, but ArrayList is slightly faster.
 
-
+Results:
+https://docs.google.com/spreadsheets/d/1v5fDSPPYMEUuGBp5QECCPPYGjcmzTc0fmr0u_5OgQcw/edit?usp=sharing
